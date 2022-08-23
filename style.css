@@ -1,0 +1,143 @@
+﻿* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    background-color: #212529;
+    overflow: auto;
+    padding: 30px 5rem;
+}
+
+    .header .logo {
+        float: left;
+    }
+
+    .header .navbar {
+        float: right;
+    }
+
+.logo a {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navbar a {
+    color: #fff;
+    font-size: 18px;
+    margin-left: 30px;
+    transition: 0.3s;
+}
+
+    .navbar a:hover {
+        color: yellow;
+    }
+
+.first {
+    text-align: center;
+    background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 13rem 0;
+}
+
+    .first h3 {
+        color: #fff;
+        font-style: italic;
+        font-size: 36px;
+    }
+
+    .first h1 {
+        color: #fff;
+        font-size: 72px;
+        padding-top: 10px;
+    }
+
+    .first button {
+        background-color: #FFC800;
+        color: #fff;
+        padding: 1.31rem 3rem;
+        font-size: 1.25rem;
+        font-weight: bold;
+        cursor: pointer;
+        border-radius: 8px;
+        border: none;
+        transition: 0.3s;
+        margin-top: 40px;
+    }
+
+        .first button:hover {
+            background-color: #ff6a00ff;
+        }
+
+.service {
+    text-align: center;
+}
+
+    .service h2 {
+        color: #212529;
+        font-size: 40px;
+        margin: 16px 0px;
+    }
+
+    .service h3 {
+        color: #6c757d;
+        font-size: 16px;
+        margin-bottom: 64px;
+    }
+.mainbox{
+    text-align:center;
+}
+    .mainbox .box {
+        width: 30%;
+        float: left;
+        margin: 0% 1%;
+    }
+        .mainbox .box .img {
+            width: 100%;
+            border-radius: 150%;
+        }
+.mainbox .box .info h4{
+    color:#212529;
+    font-size:23px;
+    margin-bottom:16px
+}
+        .mainbox .box .info p {
+            color: #6c757d;
+            font-size: 16px;
+            margin-bottom: 16px;
+            padding-bottom: 30px;
+        }
+
+.chapter3{
+    text-align:center;
+}
+.chapter3 h2{
+    font-size:40px;
+    color:#212529;
+    margin:40px 0px;
+    
+}
+    .chapter3 h3{
+        margin-bottom:20px;
+    }
+    .chapter3 .mainbox1 .box {
+        width: 30%;
+        float: left;
+        padding: 15px 0px;
+        margin: 0% 1%;
+    }
+    .chapter3 .mainbox1 .box .boximg{
+        width:100%;
+    }
+    .chapter3 .mainbox1 .box .boxinfo{
+        color:#212529;
+        background-color:#fff;
+        box-shadow:
+    }
